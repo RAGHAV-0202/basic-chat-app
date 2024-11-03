@@ -6,7 +6,7 @@ import http from "http"
 
 
 const corsOptions = {
-    origin :  ["http://localhost:3000", "http://172.20.10.2:3000", "http://192.168.29.76:3000" , "https://myvirtualroom.netlify.app"],
+    origin :  ["http://localhost:3000", "http://172.20.10.2:3000", "http://192.168.29.76:3000" , "https://basic-chat-app-teal.vercel.app"],
     methods : ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],  
     sameSite: 'None',
     credentials : true , 
