@@ -3,7 +3,7 @@ import "./index.css"
 import React from 'react';
 import { io } from 'socket.io-client';
 
-const socket = io('http://localhost:8000')
+const socket = io('https://basic-chat-app-8brn.onrender.com/')
 
 function JoinRoom({setStage , setRoomId , setName}){
 
